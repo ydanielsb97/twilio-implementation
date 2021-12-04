@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Twilio Calls</title>
+    <link rel="stylesheet" href="/styles.css">
+    
+  </head>
+  <body>
+
+      <div id="call-controls">
+
+        <p class="instructions">Make a Call:</p>
+
+        <form id="makeCallForm">
+          <input id="phone-number" class="phone-number" type="text" placeholder="Phone number" />
+          <button class="btn-call" type="submit" id="button-call">Call</button>
+          <button class="btn-hangup"type="button" id="button-hangup">Hangup</button>
+        </form>
+
+      </div>
+      
+    <script type="text/javascript" src="/libs/twilio.js"></script>
+    <script src="/scripts.js"></script>
+  </body>
+</html>

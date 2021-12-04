@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+body,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #272726;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  text-align: left;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25em;
+  color: white;
+  display: block;
+}
+
+button{
+    height: 28px;
+    min-width: 60px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instructions{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+    font-size: 50px;
+}
+
+.animation-calling{
+    border: 1px solid #03b926;
+    background-color: transparent;
+    border-radius: 50%;
+    animation: calling 1s linear infinite;
+}
+
+.phone-number {
+    height: 28px;
+    width: 300px;
+    border-radius: 19px;
+    outline: none;
+    padding-left: 14px;
+    border: none;
+}
+
+.btn-call {
+    background-color: #03b926;
+    color: white;
+}
+
+.btn-calling{
+    background-color: #2ded51;
+    color: white;
+    box-shadow: 0px 0px 18px #2eff56;
+}
+
+.btn-hangup {
+    background-color: #d3290b;
+    color: white;
+}
